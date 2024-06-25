@@ -1,0 +1,20 @@
+THE START UP TO THE PROJECT GIT, LET'S DO A FEW THINGS FIRST.
+
+1. Confirm installation in machine.
+
+    - Installation is done, and this is confirmed by entering the command; 
+            $ git --verision
+    - This will display the version of git present in the machine
+
+2. Configuring Git with username and email address
+
+    - Configure Git by entering the following commands
+
+        $ git config --global user.name "Your name"
+        $ git config --global user.email "your email@example.com"
+
+3. To keep Git up to date with your credentials.
+
+    -Enter the following commands to help Git remember our credentials
+    to avoid typing in our details every time;
+        $ git config --global credential helper.store
